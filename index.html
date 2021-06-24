@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <title>فروشگاه اینترنتی لباس دیجی مد</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width , intial-scale=1">
+
+    <link rel="stylesheet" href="Css/DesctopStyle.css">
+    <link rel="stylesheet" href="Css/MobileStyle.css">
+    <link rel="stylesheet" href="Css/Responsive.css">
+    <link rel="stylesheet" href="Css/SimilarStyle.css">
+    <link rel="stylesheet" href="Css/normalize.css">
+    <link rel="stylesheet" href="Css/carousel-bootstrap.css">
+    <link rel="stylesheet" href="Css/tooltip.css">
+
+</head>
+<body>
+    <div class="desctop_wraper">
+      <header class="header_desctop">
+        <div class="inner_container">
+            <div class="header_desctop_wraper">
+                <div class="header_desctop_container">
+                    <ul>
+                        <li><img src="Img/x_Mobile-imgs/1_MobileIMG/icons8-basket-64.png" alt=""></li>
+                        <li>ورود / عضویت</li>
+                    </ul>
+                </div>
+
+                <div class="header_desctop_container">
+                    <ul class="header_desctop_center_wraper">
+                        <li class="header_desctop_logo_wraper"><img src="Img/Logo/logo.png" alt=""></li>
+                        <ul class="header_desctop_nav">
+                            <li>مردانه</li>
+                            <li>زنانه</li>
+                            <li>بچگانه</li>
+                            <li>زیبایی و سلامت</li>
+                            <li class="header__supercat-seperator"></li>
+                            <li class="red_color">فروش ویژه</li>
+                            <li>برند ها</li>
+                            <li>کارت هدیه</li>
+                        </ul>
+                    </ul>
+                </div>
+
+                <div class="header_desctop_container">
+                  <div class="search-wrapper">
+                    <div class="input-holder">
+                        <input type="text" class="search-input" placeholder="جست و جو محصولات" />
+                        <button class="search-icon" onclick="searchToggle(this, event);">
+                          <span>
+                            <img src="Img/x_Mobile-imgs/1_MobileIMG/serch.png" alt="">
+                          </span>
+                        </button>
+                    </div>
+                    <span class="close" onclick="searchToggle(this, event);"></span>
+                </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+      <main class="main">          
+          <section class="slideShow">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="Img/SlideShow/1.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="Img/SlideShow/2.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="Img/SlideShow/3.jpg" alt="Third slide">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </section>
+
+          <section class="brand__banners">
+              <div class="brand__banners__container">
+                <div class="inner_container">
+                  <div class="brand__banner__container">
+                    <div class="brand__banner">
+                      <img src="Img/brand__banner/1.jpg" alt="" class="brand__banner__container__figure">
+                    </div>
+                    <div class="brand__banner">
+                      <img src="Img/brand__banner/2.jpg" alt="" class="brand__banner__container__figure">
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </section>
+
+          <section class="Beauty_and_Health_Products">
+            <div class="Beauty_and_Health_Products__containers">
+              <div class="inner_container">
+                <div class="Beauty_and_Health_Products__title">زیبایی و سلامت</div>
+                <div class="Beauty_and_Health_Products__container">
+                  <div class="Beauty_and_Health_Product">
+                    <img src="Img/Beauty&HealthProducts/1.jpg" alt="" class="Beauty_and_Health_Product__figure">
+                  </div>
+                  <div class="Beauty_and_Health_Product">
+                    <img src="Img/Beauty&HealthProducts/2.jpg" alt="" class="Beauty_and_Health_Product__figure">
+                  </div>
+                  <div class="Beauty_and_Health_Product">
+                    <img src="Img/Beauty&HealthProducts/3.jpg" alt="" class="Beauty_and_Health_Product__figure">
+                  </div>
+                  <div class="Beauty_and_Health_Product">
+                    <img src="Img/Beauty&HealthProducts/4.jpg" alt="" class="Beauty_and_Health_Product__figure">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="banner__grid__home">
+            <a href="" class="banner__grid__cell banner-grid__cell--top-left"><img src="Img/banner__grid/1.jpg" alt="" class="banner__grid__cell__img"></a>
+            <a href="" class="banner__grid__cell banner-grid__cell--top-right"><img src="Img/banner__grid/2.jpg" alt="" class="banner__grid__cell__img"></a>
+            <a href="" class="banner__grid__cell banner-grid__cell--bottom-left"><img src="Img/banner__grid/3.jpg" alt="" class="banner__grid__cell__img"></a>
+            <a href="" class="banner__grid__cell banner-grid__cell--bottom-center"><img src="Img/banner__grid/4.jpg" alt="" class="banner__grid__cell__img"></a>
+            <a href="" class="banner__grid__cell banner-grid__cell--bottom-right"><img src="Img/banner__grid/5.jpg" alt="" class="banner__grid__cell__img"></a>
+          </section>
+
+          <section class="dijimag">
+            <div class="dijimag__all__container">
+              <div class="inner_container">
+                <div class="dijimag__title">دیجی استایل در دیجی مگ</div>
+                <div class="dijimag__container">
+                  <div class="dijimag__content">
+                    <img src="Img/dijimag/1.jpg" alt="" class="dijimag__content__img">
+                    <div class="dijimag__content__title">مروری بر زندگی کلوین کلاین؛ طراح موفق آمریکایی</div>
+                    <div class="dijimag__content__text">کلوین کلاین موسس برند «کلوین کلاین» که  به نام سی‌کی (CK) هم نامیده می‌شود یکی از موفق‌ترین و مشهورترین طراحان مد در جهان است. او ابتدا با طراحی و تولید لباس‌های خوش‌دوخت و با‌ کیفیت ورزشی به شهرت رسید و پس از آن با ایجاد کمپین‌های تبلیغاتی مدرن و خبر‌سازش</div>
+                  </div>
+
+                  <div class="dijimag__content">
+                    <img src="Img/dijimag/2.jpg" alt="" class="dijimag__content__img">
+                    <div class="dijimag__content__title">پیراهن زنانه‌ی بل فی مدل ۳۱۹۰۹-۹۹۰۱؛ طرحی کلاسیک با کاربردی همیشگی</div>
+                    <div class="dijimag__content__text">امروز و در این ویدیو می‌خواهیم پیراهن زنانه‌ی بل فی را به شما معرفی کنیم که در عین زیبایی و راحتی، کاربردهای متنوعی هم می‌تواند داشته باشد. برند بل فی چند سالی است که کار خود را در زمینه‌ی طراحی و تولید پوشاک خانم‌ها شروع کرده است و با استفاده از</div>
+                  </div>
+
+                  <div class="dijimag__content">
+                    <img src="Img/dijimag/3.jpg" alt="" class="dijimag__content__img">
+                    <div class="dijimag__content__title">۸ ایده برای استفاده از رنگ سبز در استایل</div>
+                    <div class="dijimag__content__text">وقتی صبحت از ست کردن رنگ‌ها با هم می‌شود، بسیاری از افراد راحت‌طلب با ریسک‌پذیری کم به سراغ رنگ‌های خنثی یا مونوکروم می‌روند. اما با نگاهی به  اینفلوئنسرهای مد و فشن و فشن‌شوها می‌بینیم که افزودن یک رنگ شاخص و جسورانه مثل رنگ سبز تا چه اندازه می‌تواند استایل را چشم‌گیر و متفاوت</div>
+                  </div>
+
+                  <div class="dijimag__content">
+                    <img src="Img/dijimag/4.jpg" alt="" class="dijimag__content__img">
+                    <div class="dijimag__content__title">۱۳ ایده‌ی جذاب برای طراحی ناخن در فصل بهار و تابستان</div>
+                    <div class="dijimag__content__text">یک مانیکور زیبا و جذاب در تمامی فصل‌های سال می‌تواند جلوه‌ی جذاب و دل‌نشینی به استایل شما بدهد، به ویژه در فصل‌های باطراوت بهار و تابستان، مانیکورهای جدید و هیجان‌انگیز در کنار آیتم‌های رنگی شاد و خنک تابستانه و بهاره می‌توانند جذابیت و طراوت استایل‌تان را چند برابر کنند. در سال‌های اخیر با توجه به ...
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="dijistyle__banner">
+            <div class="inner_container">
+              <div class="dijistyle__banner__container">
+                <img src="Img/dijistyle__banner/dijistyle__banner.png" alt="" class="dijistyle__banner__container__img">
+              </div>
+            </div>
+          </section>
+
+          <section class="web__categories">
+            <div class="inner_container">
+              <div class="web__categories__column">
+                <div class="web__categorie">
+                  <a href="" class="web__categorie__main-cat">مردانه</a>
+                  <a href="" class="web__categorie__sub-cat">لباس مردانه</a>
+                  <a href="" class="web__categorie__sub-cat">کفش مردانه</a>
+                  <a href="" class="web__categorie__sub-cat">اکسسوری مردانه</a>
+                  <a href="" class="web__categorie__sub-cat">ورزشی مردانه</a>
+                </div>
+
+                <div class="web__categorie">
+                  <a href="" class="web__categorie__main-cat">زنانه</a>
+                  <a href="" class="web__categorie__sub-cat">لباس زنانه</a>
+                  <a href="" class="web__categorie__sub-cat">کفش زنانه</a>
+                  <a href="" class="web__categorie__sub-cat">اکسسوری زنانه</a>
+                  <a href="" class="web__categorie__sub-cat">ورزشی زنانه</a>
+                </div>
+
+                <div class="web__categorie">
+                  <a href="" class="web__categorie__main-cat">بچگانه</a>
+                  <a href="" class="web__categorie__sub-cat">نوزاد</a>
+                  <a href="" class="web__categorie__sub-cat">دخترانه</a>
+                  <a href="" class="web__categorie__sub-cat">پسرانه</a>
+                </div>
+
+                <div class="web__categorie">
+                  <a href="" class="web__categorie__main-cat">زیبایی و سلامت</a>
+                  <a href="" class="web__categorie__sub-cat">لوازم آرایشی</a>
+                  <a href="" class="web__categorie__sub-cat">لوازم بهداشتی</a>
+                  <a href="" class="web__categorie__sub-cat">لوازم شخصی برقی</a>
+                  <a href="" class="web__categorie__sub-cat">عطر</a>
+                  <a href="" class="web__categorie__sub-cat">ابزار سلامت</a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="usp_section">
+            <div class="inner_container">
+              <div class="usp_section__container">
+                <div class="usp_section__content">
+                  <img src="Img/usp_section/1.svg" alt="" class="usp_section__content__img">
+                  <div class="usp_section__content__text">تحویل سریع و آسان</div>
+                </div>
+
+                <div class="usp_section__content">
+                  <img src="Img/usp_section/2.svg" alt="" class="usp_section__content__img">
+                  <div class="usp_section__content__text">14 روز ضمانت بازگشت کالا</div>
+                </div>
+
+                <div class="usp_section__content">
+                  <img src="Img/usp_section/3.svg" alt="" class="usp_section__content__img">
+                  <div class="usp_section__content__text">ضمانت اصل بودن کالا</div>              
+                </div>
+              </div>
+            </div>
+          </section>
+      </main>
+      <footer class="footer">
+        <div class="inner_container">
+          <div class="footer__categories">
+            <div class="footer__categories__title">
+              <img src="Img/Logo/logo.png" alt="" class="footer__categories__title__img">
+              <div class="footer__categories__title__affter__line"></div>
+            </div>
+            <div class="footer__categories__container">
+              <div class="footer__categorie__content">
+                <a class="footer__categorie__content__link">خرید</a>
+                <a href="" class="footer__categorie__content__link">مردانه</a>
+                <a href="" class="footer__categorie__content__link">زنانه</a>
+                <a href="" class="footer__categorie__content__link">بچگانه</a>
+                <a href="" class="footer__categorie__content__link">زیبایی و سلامت</a>
+              </div>
+
+              <div class="footer__categorie__content">
+                <a class="footer__categorie__content__link">خدمات مشتریان</a>
+                <a href="" class="footer__categorie__content__link">پاسخ به پرسش های متداول</a>
+                <a href="" class="footer__categorie__content__link">رویه های باز گرداندن کالا</a>
+                <a href="" class="footer__categorie__content__link">شرایط استفاده </a>
+                <a href="" class="footer__categorie__content__link">حریم خصوصی</a>
+              </div>
+
+              <div class="footer__categorie__content">
+                <a class="footer__categorie__content__link">اطلاعات دیجی مد</a>
+                <a href="" class="footer__categorie__content__link">درباره دیجی مود</a>
+                <a href="" class="footer__categorie__content__link">تماس با دیجی مود</a>
+                <a href="" class="footer__categorie__content__link">همکاری با دیجی مود</a>
+              </div>
+
+              <div class="footer__categorie__content">
+                <div class="telBox__and__gotop">
+                  <p class="telBox__and__gotop__tel">تلفن پشتیبانی: 44123123-021</p>
+                  <div class="data_title_container">
+                    <div class="tooltip" id="jumpTop">
+                      <img src="Img/footer/Go__top/Go__Top.png" alt="" class="telBox__and__gotop__go_top__img">
+                      <span class="tooltiptext">پرش به بالا</span>
+                     </div>
+                  </div>
+                </div>
+
+                <div class="link__Cyberspaces">
+                  <div class="data_title_container">
+                    <div class="tooltip">
+                      <img src="Img/footer/icons8-instagram.svg" alt="" class="link__Cyberspace">
+                      <span class="tooltiptext">دیجی مود در اینستاگرام</span>
+                     </div>
+                  </div>
+                  <div class="data_title_container">
+                    <div class="tooltip">
+                      <img src="Img/footer/icons8-telegram-app.svg" alt="" class="link__Cyberspace">
+                      <span class="tooltiptext">دیجی مود در تلگرام</span>
+                     </div>
+                  </div>
+                  <div class="data_title_container">
+                    <div class="tooltip">
+                      <img src="Img/footer/icons8-twitter.svg" alt="" class="link__Cyberspace">
+                      <span class="tooltiptext">دیجی مود در توییتر</span>
+                     </div>
+                  </div>
+                </div>
+                
+                <div class="Sign_up_for_DiJiMod">
+                  <p class="Sign_up_for_DiJiMod__title">ثبت نام در خبر نامه دیجی مد</p>
+                  <div class="sending__container">
+                    <input type="text" class="sending__container__search_input" placeholder="ایمیل خود را وارد کنید">
+              
+                    <button class="sending__container__search_button">
+                      <img src="Img/footer/icons8-left-48.png" alt="" class="sending__container__search_button__img">
+                    </button>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="download__app__links__container">
+            <div class="download__app__link__title">دانلود اپلیکیشن دیجی مد</div>
+            <div class="download__app__links">
+              <img src="Img/footer/1.png" alt="" class="download__app__link__img">
+              <img src="Img/footer/2.png" alt="" class="download__app__link__img">
+              <img src="Img/footer/3.png" alt="" class="download__app__link__img">
+              <img src="Img/footer/4.png" alt="" class="download__app__link__img">
+            </div>
+          </div>
+
+          <div class="Information__from__Dijimod">
+            <div class="mainwrapper">
+              <div class="item01">
+                <p class="mainwrapper__text">دیجی‌استایل، پس از تجربه‌ی موفق فروشگاه اینترنتی دیجی‌کالا به صورت تخصصی پا به عرصه مد، پوشاک و سبک زندگی گذاشت تا همان تجربه‌ی شیرین، در قالبی نو تکرار شود. در دیجی ‌استایل می‌توانید همه آنچه مرتبط با مد و پوشاک است؛ از انواع لباس، کیف و کفش تا محصولات آرایشی و بهداشتی، لوازم خانه و اکسسوری‌هایی مانند 
+                  <input type=checkbox id='toggle'/>
+                  <span class='hidden_paragraph'>
+                    ساعت مچی و عینک آفتابی را با تخفیف ویژه در حراج ها، پیدا کنید و به سادگی یک ست کامل از جدیدترین‌ برندهای معتبر ایرانی و خارجی را بخرید. تیم حرفه‌ای دیجی‌استایل همچون دیجی‌کالا تلاش می‌کند با ارائه‌ی محصولات و خدمات عالی، تجربه‌ای مطمئن از خرید اینترنتی با قیمت مناسب و ارزان را این بار در حوزه مد و لباس به وجود آورد.
+                  </span>
+                  <span class="gardient"></span>
+                  <label class="seemore" for='toggle' ></label>
+                </p>
+              </div>
+            </div>
+            <div class="Information__from__Dijimod__img__container">
+              <img src="Img/footer/6e2d6b38.png" alt="" class="Information__from__Dijimod__img">
+            </div>
+          </div>
+
+          <div class="footer__copyright__content">
+            <div class="footer__copyright__title">کليه حقوق اين سايت متعلق به امیرحسین کلانتری (فروشگاه اینترنتی دیجی مود) می‌باشد.</div>
+            <div class="footer__copyright__text">digiMod.com - 2021 © Copyright</div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+
+    <div class="Mobile_wraper">
+      <div>
+        <header class="mobile_header">
+          <div class="inner_container">
+                <nav class="navbar">
+                  <div class="nav-icon">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                  </div>
+            
+                  <div class="menu">
+                    <li class="item">پوشاک زنانه</li>
+                    <li class="item">پوشاک مردانه</li>
+                    <li class="item">پوشاک کودکانه </li>
+                    <li class="item"> زیبایی و سلامت</li>
+                    <li class="item">ورود / ثبت نام</li>
+                  </div>
+                </nav>
+              <div class="mobile_header_content">
+                <ul class="mobile_header_logo_web">
+                  <img src="Img/x_Mobile-imgs/1_MobileIMG/logo.png" alt="">
+                </ul>
+                <ul>
+                  <li class="mobile_header_serchandbasket_logo">
+                  <img src="Img/x_Mobile-imgs/1_MobileIMG/icons8-basket-64.png" alt="">
+                  </li>
+                  <li class="mobile_header_serchandbasket_logo">
+                  <img src="Img/x_Mobile-imgs/1_MobileIMG/icons8-search.svg" alt="">
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <main class="main">
+            <section class="slideshow_mobile">
+              <div class="slideShow__container">
+      
+                <div class="slideShow__container__images fade">
+                  <img class="slideShow__container__image" src="Img/x_Mobile-imgs/1_MobileIMG/1.jpg" alt="">
+                </div>
+                
+                <div class="slideShow__container__images fade">
+                  <img class="slideShow__container__image" src="Img/x_Mobile-imgs/1_MobileIMG/2.jpg" alt="">
+                </div>
+                
+                <div class="slideShow__container__images fade">
+                  <img class="slideShow__container__image" src="Img/x_Mobile-imgs/1_MobileIMG/3.jpg" alt="">
+                </div>
+                
+                <div class="slideShow__container__images fade">
+                  <img class="slideShow__container__image" src="Img/x_Mobile-imgs/1_MobileIMG/4.jpg" alt="">
+                </div>
+
+                <div class="slideShow__container__images fade">
+                  <img class="slideShow__container__image" src="Img/x_Mobile-imgs/1_MobileIMG/5.jpg" alt="">
+                </div>
+
+                <div class="slideShow__container__images fade">
+                  <img class="slideShow__container__image" src="Img/x_Mobile-imgs/1_MobileIMG/6.jpg" alt="">
+                </div>
+
+                <div class="slideShow__container__images fade">
+                  <img class="slideShow__container__image" src="Img/x_Mobile-imgs/1_MobileIMG/7.jpg" alt="">
+                </div>
+                
+              </div>
+            </section>
+
+            <section class="products_all__wrapper">
+              <div class="inner_container">
+                <ul>
+                  <li><img src="Img/x_Mobile-imgs/product_figure/01558c3a017bc41517a4eb3a00191f250f828716_1618820613.png" alt=""></li>
+                  <li><img src="Img/x_Mobile-imgs/product_figure/3a1138a9cbc81da0333a339b77d5e2d2e441b7a9_1618820523.png" alt=""></li>
+                  <li><img src="Img/x_Mobile-imgs/product_figure/a6449be90bd6cc5391b1b6894c58179d3a2c647d_1618820634.png" alt=""></li>
+                  <li><img src="Img/x_Mobile-imgs/product_figure/f11508068abc449c42e75812da810698dc471274_1597667549.jpg" alt=""></li>
+                </ul>
+              </div>
+            </section>
+
+            <section class="products_mobile__wrapper">
+              <div class="inner_container">
+                <div class="products_mobile__title">
+                  <ul>
+                    <li>از پر طرفدار ترین برند : neuderm</li>
+                    <li>مشاهده بیشتر</li>
+                  </ul>
+                </div>
+                <div class="products_mobile__container">
+                  <div class="products_mobile__content">
+                    <img src="Img/x_Mobile-imgs/neuderm/1.jpg" alt="">
+                    <div class="products_mobile__content_Discount">9%</div>
+                    <div class="products_mobile__content_detail">
+                      <ul>
+                        <li>نیودرم</li>
+                        <li class="article_Discount">1,250,000تومان</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="products_mobile__content">
+                    <img src="Img/x_Mobile-imgs/neuderm/2.jpg" alt="">
+                    <div class="products_mobile__content_Discount">2%</div>
+                    <div class="products_mobile__content_detail">
+                      <ul>
+                        <li>نیودرم</li>
+                        <li class="article_Discount">970,300تومان</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="products_mobile__content">
+                    <img src="Img/x_Mobile-imgs/neuderm/3.jpg" alt="">
+                    <div class="products_mobile__content_detail">
+                      <ul>
+                        <li>نیودرم</li>
+                        <li>640,000تومان</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="products_mobile__content">
+                    <img src="Img/x_Mobile-imgs/neuderm/4.jpg" alt="">
+                    <div class="products_mobile__content_Discount">6%</div>
+                    <div class="products_mobile__content_detail">
+                      <ul>
+                        <li>نیودرم</li>
+                        <li class="article_Discount">720,000تومان</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="brand_mobile_section">
+              <div class="inner_container">
+                <div class="products_mobile__title">
+                  <ul>
+                    <li>از پر طرفدار ترین برند ها</li>
+                    <li>مشاهده بیشتر</li>
+                  </ul>
+                </div>
+                <div class="brand_mobile_wraper">
+                  <ul>
+                    <li><img src="Img/x_Mobile-imgs/brand_logos_mobile/1.png" alt=""></li>
+                    <li><img src="Img/x_Mobile-imgs/brand_logos_mobile/2.png" alt=""></li>
+                    <li><img src="Img/x_Mobile-imgs/brand_logos_mobile/3.png" alt=""></li>
+                    <li><img src="Img/x_Mobile-imgs/brand_logos_mobile/4.png" alt=""></li>
+                    <li><img src="Img/x_Mobile-imgs/brand_logos_mobile/5.png" alt=""></li>
+                    <li><img src="Img/x_Mobile-imgs/brand_logos_mobile/6.png" alt=""></li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+
+            <section class="products_mobile__wrapper">
+              <div class="inner_container">
+                <div class="products_mobile__title">
+                  <ul>
+                    <li>از پر طرفدار ترین برند : Edvar</li>
+                    <li>مشاهده بیشتر</li>
+                  </ul>
+                </div>
+                <div class="products_mobile__container">
+                  <div class="products_mobile__content">
+                    <img src="Img/x_Mobile-imgs/edvar/1.jpg" alt="">
+                    <div class="products_mobile__content_Discount">24%</div>
+                    <div class="products_mobile__content_detail">
+                      <ul>
+                        <li>ادوار</li>
+                        <li class="article_Discount">250,000تومان</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="products_mobile__content">
+                    <img src="Img/x_Mobile-imgs/edvar/2.jpg" alt="">
+                    <div class="products_mobile__content_detail">
+                      <ul>
+                        <li>ادوار</li>
+                        <li>264,300تومان</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="products_mobile__content">
+                    <img src="Img/x_Mobile-imgs/edvar/3.jpg" alt="">
+                    <div class="products_mobile__content_Discount">11%</div>
+                    <div class="products_mobile__content_detail">
+                      <ul>
+                        <li>ادوار</li>
+                        <li class="article_Discount">199,000تومان</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="products_mobile__content">
+                    <img src="Img/x_Mobile-imgs/edvar/4.jpg" alt="">
+                    <div class="products_mobile__content_Discount">4%</div>
+                    <div class="products_mobile__content_detail">
+                      <ul>
+                        <li>ادوار</li>
+                        <li class="article_Discount">127,000تومان</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="usp_section">
+              <div class="inner_container">
+                <div class="usp_section__container">
+                  <div class="usp_section__content">
+                    <img src="Img/usp_section/1.svg" alt="" class="usp_section__content__img">
+                    <div class="usp_section__content__text">تحویل سریع و آسان</div>
+                  </div>
+  
+                  <div class="usp_section__content">
+                    <img src="Img/usp_section/2.svg" alt="" class="usp_section__content__img">
+                    <div class="usp_section__content__text">14 روز ضمانت بازگشت کالا</div>
+                  </div>
+  
+                  <div class="usp_section__content">
+                    <img src="Img/usp_section/3.svg" alt="" class="usp_section__content__img">
+                    <div class="usp_section__content__text">ضمانت اصل بودن کالا</div>              
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="products_mobile__wrapper">
+              <div class="inner_container">
+                <div class="products_mobile__title">
+                  <ul>
+                    <li>از پر طرفدار ترین برند : Skmei</li>
+                    <li>مشاهده بیشتر</li>
+                  </ul>
+                </div>
+                <div class="products_mobile__container">
+                  <div class="products_mobile__content">
+                    <img src="Img/x_Mobile-imgs/Skmei/1.jpg" alt="">
+                    <div class="products_mobile__content_detail">
+                      <ul>
+                        <li>اسکمی</li>
+                        <li>692,000تومان</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="products_mobile__content">
+                    <img src="Img/x_Mobile-imgs/Skmei/2.jpg" alt="">
+                    <div class="products_mobile__content_detail">
+                      <ul>
+                        <li>اسکمی</li>
+                        <li>534,300تومان</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="products_mobile__content">
+                    <img src="Img/x_Mobile-imgs/Skmei/3.jpg" alt="">
+                    <div class="products_mobile__content_Discount">24%</div>
+                    <div class="products_mobile__content_detail">
+                      <ul>
+                        <li>اسکمی</li>
+                        <li class="article_Discount">728,000تومان</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="products_mobile__content">
+                    <img src="Img/x_Mobile-imgs/Skmei/4.jpg" alt="">
+                    <div class="products_mobile__content_Discount">13%</div>
+                    <div class="products_mobile__content_detail">
+                      <ul>
+                        <li>اسکمی</li>
+                        <li class="article_Discount">980,000تومان</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="jump_to_top_mobile">
+              <p id="jumpTopMobile">بازگشت به بالای صفحه</p>
+            </section>
+        </main>
+
+        <footer class="footer_mobile">
+          <div class="Social_networks_link_wraper">
+            <div class="inner_container">
+              <ul>
+                <li>مارا در شبکه های اجتماعی دنبال کنید</li>
+                <li><img src="Img/footer/icons8-instagram.svg" alt=""></li>
+                <li><img src="Img/footer/icons8-telegram-app.svg" alt=""></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="footer_mobile_categorie">
+            <div class="inner_container">
+              <ul>
+                <li>پشتیبانی مشتریان</li>
+                <li>شرایط استفاده</li>
+                <li>سوالات متداول</li>
+                <li>حریم خصوصی</li>
+                <li>دانلود اپلیکیشن</li>
+                <li>درباره ما</li>
+                <li>بازگردانی کالا</li>
+                <li>تماس با ما</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="footer_mobile_textaboutme">
+            <div class="inner_container">
+              <P class="footer_mobile_textaboutme_title">
+                فروشگاه اینترنتی مد و لباس دیجی مود
+              </P>
+              <div class="footer_mobile_textaboutme_wraper">
+                <p>
+                  دیجی‌استایل، پس از تجربه‌ی موفق فروشگاه اینترنتی دیجی‌کالا به صورت تخصصی پا به عرصه مد، پوشاک و سبک زندگی گذاشت تا همان تجربه‌ی شیرین، در قالبی نو تکرار شود. در دیجی ‌استایل می‌توانید همه آنچه مرتبط با مد و پوشاک است؛ از انواع لباس، کیف و کفش تا محصولات آرایشی و بهداشتی، لوازم خانه و اکسسوری‌هایی مانند
+                </p>
+                <details>
+                <summary>
+                  <span id="open">بیشتر</span> 
+                  <span id="close">بستن</span> 
+                </summary>
+                <p>
+                  ساعت مچی و عینک آفتابی را با تخفیف ویژه در حراج ها، پیدا کنید و به سادگی یک ست کامل از جدیدترین‌ برندهای معتبر ایرانی و خارجی را بخرید. تیم حرفه‌ای دیجی‌استایل همچون دیجی‌کالا تلاش می‌کند با ارائه‌ی محصولات و خدمات عالی، تجربه‌ای مطمئن از خرید اینترنتی با قیمت مناسب و ارزان را این بار در حوزه مد و لباس به وجود آورد.
+                </p>
+                </details>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer_mobile_copyRight">
+            <p>
+              کلیه حقوق این سایت متعلق یه </br> امیرحسین کلانتری <b>(فروشگاه اینترنتی دیجی مود)</b> می باشد.
+            </p>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+
+  <script src="Js/jquery-3.4.1.min.js"></script>
+  <script src="Js/bootstrap.min.js"></script>
+  <script src="Js/gsap.min.js"></script>
+  <script src="Js/slideShow_desctop.js"></script>
+  <script src="Js/slideShow_mobile.js"></script>
+  <script src="Js/readMore.js"></script>
+  <script src="Js/goTopDesctop.js"></script>
+  <script src="Js/goTopMobile.js"></script>
+  <script src="Js/index.js"></script>
+  <script src="Js/nav.js"></script>
+  <script src="Js/serchBox.js"></script>
+
+</body>
+</html>

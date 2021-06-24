@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+}
+
+html* ,
+html*::after ,
+html*::before{
+    box-sizing: inherit;
+}
+
+input ,
+button {
+    font: inherit;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.inner_container{
+    width: 90%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    font-style: italic;
+    vertical-align: middle;
+}
+
+img {
+    border-style: none;
+}
+
+.clearfex::after ,
+.clearfex::before{
+    content: ' ';
+    display: table;
+}
+
+.clearfex::after{
+    clear: both;
+}
+
+.data_title_container{
+    position: relative;
+    display: table;
+}
+
+.data_title {
+  position: absolute;
+  left: calc(50% - 18px);
+  top: calc(50% - 18px);
+}
+
+.data_title:hover {
+  position: absolute;
+}
+
+.data_title[data-title] {
+  background-color: rgba(17,17,17,0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+.data_title[data-title]:hover:after {
+  content: attr(data-title);
+  padding: 8px 10px;
+  font-family: inherit;
+  font-size: 10px;
+  color: #eee;
+  position: absolute;
+  left: -300%;
+  bottom: 130%;
+  z-index: 20;
+  white-space: nowrap;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 1px;
+  background-color: rgba(17,17,17,1);
+  letter-spacing: 1px;
+  font-weight: 500;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+.data_title[data-title]:hover:before {
+  content:'';
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #111;
+  position: absolute;
+  bottom: 110%;
+  left: 30%;
+}
+
+/*usp_section*/
+
+.usp_section{
+    width: 100%;
+    padding: 4em 0;
+}
+
+.usp_section__container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.usp_section__content{
+    flex-basis: 25%;
+    text-align: center;
+}
+
+.usp_section__content__img{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.usp_section__content__text{
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: normal;
+    line-height: normal;
+    color: #434343;
+    text-align: center;
+    margin-top: 1em;
+}
+
+@media (max-width:65em){
+    .usp_section__content__text{
+        font-size: 12px;
+    }
+}
+
+ul ,
+li{
+    margin: 0;
+    padding: 0;
+}
+
+.red_color{
+    color: red;
+}

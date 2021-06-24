@@ -1,0 +1,19 @@
+.desctop_wraper{
+    display: none;
+}
+
+.Mobile_wraper{
+    display: none;
+}
+
+@media (min-width:65em){
+    .desctop_wraper{
+        display: block;
+    }
+}
+
+@media (max-width:65em){
+    .Mobile_wraper{
+        display: block;
+    }
+}
